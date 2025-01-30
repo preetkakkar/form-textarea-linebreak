@@ -8,7 +8,7 @@ Example (PHP - Using nl2br())
 
 If you're using PHP to send the email:
 
-$message = nl2br($_POST['message']); // Converts newlines to <br>
+<strong>$message = nl2br($_POST['message']);</strong> // Converts newlines to <br>
 
 Example (Magento 2 Email Template)
 
@@ -16,7 +16,7 @@ If you're using a Magento email template, wrap the variable inside escape with n
 
 {{var message|escape|nl2br}}
 
-
+<strong>2. Check the Email Format</strong><br />
 If your email is sent as plain text, make sure the Content-Type is set correctly:
 For Plain Text Email:
 

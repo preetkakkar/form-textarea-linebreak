@@ -28,9 +28,9 @@ $headers = "Content-Type: text/html; charset=UTF-8";
 
 If it's an HTML email, you must replace line breaks (\n) with <br> manually using nl2br().
 
-<strong>Example: Message in email without line breaks</strong><br />
+<strong>Example: Message in email without line breaks</strong><br /><br />
 ![Capture1](https://github.com/user-attachments/assets/e4d5ca9d-d449-4c95-a92b-01d20b628442)
 
 
-<strong>Example: Message in email with line breaks</strong><br />
+<strong>Example: Message in email with line breaks</strong><br /><br />
 ![Capture2](https://github.com/user-attachments/assets/0250e074-4e1a-4152-aa70-97d79db24248)
